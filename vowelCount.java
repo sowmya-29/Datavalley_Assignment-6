@@ -13,6 +13,7 @@ public class vowelCount
 		    char ch=str.charAt(i);
 		    if(ch=='a'){
 		        arr[0]++;
+			    count++;
 		    }else if(ch=='e'){
 		        arr[1]++;
 		        count++;
